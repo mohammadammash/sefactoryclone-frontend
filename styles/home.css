@@ -273,3 +273,8 @@ footer {
 .crText {
   font-weight: 700;
 }
+.icon{
+  width:30px;
+  height:30px;
+  margin:0 5px;
+}
