@@ -148,8 +148,27 @@ main {
 }
 
 
-/*  SECTION 5 */
-.sec5Title{
-    width:20%;
-    border: 3px solid black;
+/* RPS SECTION */
+.rpsSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rpTitle{
+    font-size: 2.5rem;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.rpTitle2{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+.rpsImg{
+    width:90%;
+    margin-bottom: 50px;
+}
+.fdbImg{
+    width:50%;
 }
