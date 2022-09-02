@@ -296,4 +296,16 @@ footer {
   footer{
     flex-direction: column;
   }
+  .prg1Img, .prg2Img{
+    width:100%;
+  }
+  .nav{
+    display: block;
+  }
+  .navLinks li a{
+    display: none;
+  }
+  .mainSec .content{
+    width: 100%;
+  }
 }
