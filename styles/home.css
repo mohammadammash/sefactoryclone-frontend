@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 .lineSep {
-  background-color: black;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line{
+    width: 90%;
 }
 
 
@@ -182,7 +186,6 @@ main {
     text-align: center;
     height: 400px;
     width: 100vw;
-    border: 3px solid red;
 }
 .contTitle{
     text-align: center;
@@ -211,3 +214,34 @@ main {
 }
 
 
+/* FINAL SECTION */
+.finalSec{
+    height: 300px;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid red;
+}
+.finalSecText{
+    text-align: center;
+    width: 100%;
+}
+.finalSecp{
+    width:40%;
+}
+.finalSecTitle{
+    font-size: 3rem;
+}
+.finalSecText{
+    font-size: 3rem;
+}
+.finalSecBtn{
+    margin-top: 30px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/*  */
