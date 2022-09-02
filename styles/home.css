@@ -7,12 +7,14 @@
   font-weight: 700;
 }
 
+
 /* MAIN */
 main {
   background-image: url("images/homebg.jpg");
   height: 100vh;
   margin-bottom: 50px;
 }
+
 
 /*MAIN - NAVBAR */
 .nav {
@@ -32,6 +34,7 @@ main {
   display: inline;
   padding: 0 25px;
 }
+
 
 /* MAIN - SECTION */
 .mainSec {
@@ -54,6 +57,7 @@ main {
 .mainSec .learnBtn {
   padding: 5px 10px;
 }
+
 
 /* STATS SECTION */
 .statsSec {
@@ -85,34 +89,36 @@ main {
   text-align: center;
 }
 
-/* SECTION 3 */
-.sec3 {
+
+/* SECTIONS */
+.sec {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10%;
 }
-.sec3Img {
+.secImg {
   width: 45%;
   margin-right: 5%;
 }
-.sec3Title {
+.secTitle {
   font-size: 4rem;
   width: 50%;
 }
-.sec3Text {
+.secText {
   font-size: 2rem;
   padding: 30px;
 }
-.sec3 .secPart {
+.secPart {
   width: 40%;
 }
-.sec3Link {
+.secLink {
   margin-top: 20px;
   display: block;
   font-size: 20px;
   text-decoration: underline;
 }
+
 
 /* PROGRAMS SECTION */
 .prgTitle {
@@ -139,4 +145,11 @@ main {
   padding-left: 20px;
   width: 400px;
   height: 500px;
+}
+
+
+/*  SECTION 5 */
+.sec5Title{
+    width:20%;
+    border: 3px solid black;
 }
