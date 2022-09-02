@@ -3,8 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-.bold {
-  font-weight: 700;
+.lineSep {
+  background-color: black;
+  width: 100%;
 }
 
 
@@ -154,6 +155,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .rpTitle{
     font-size: 2.5rem;
@@ -172,3 +174,40 @@ main {
 .fdbImg{
     width:50%;
 }
+
+
+/* MEDIA, FUNDING, AND STRATEGIC PARTNERS SECTION */
+.contSec{
+    padding: 40px 0; 
+    text-align: center;
+    height: 400px;
+    width: 100vw;
+    border: 3px solid red;
+}
+.contTitle{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.contImg{
+    margin: 10px;
+}
+.fpSec{
+    height:700px;
+}
+.fpImg{
+    height:500px;
+    width:90%;
+}
+.spCont{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.spImg{
+    width:350px;
+    height:100px;
+}
+
+
