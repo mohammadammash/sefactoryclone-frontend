@@ -88,3 +88,34 @@ main{
     width: 50%;
     text-align: center;
 }
+
+
+/* SECTION 3 */
+.sec3{
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+.sec3Img{
+    width:45%;
+    margin-right: 5%;
+}
+.sec3Title{
+    font-size: 4rem;
+}
+.sec3Text{
+    font-size: 2rem;
+    padding: 30px;
+}
+.sec3 .secPart{
+   width:40%; 
+}
+.sec3Link{
+    margin-top: 20px;
+    display: block;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
