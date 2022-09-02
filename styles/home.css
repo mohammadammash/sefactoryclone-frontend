@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bold{
+    font-weight: 700;
+}
+
+/* MAIN */
+main{
+    background-image: url('images/homebg.jpg');
+    height:100vh;
+    margin-bottom: 50px;
+}
+
+
+/*MAIN - NAVBAR */
+.nav{
+    display: flex;
+}
+.navSELogo{
+    margin: 1% 5%;
+}
+.navLinks{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+}
+.nav-link{
+    display: inline;
+    padding: 0 25px;
+}
+
+/* MAIN - SECTION */
+.mainSec{
+    display: flex;
+    align-items: flex-end;
+    padding: 80px;
+    height: 90vh;
+}
+.mainSec .content{
+    width: 50%;
+}
+
+.mainSec .title{
+    font-size: 4rem;
+}
+.mainSec .parag{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.mainSec .learnBtn{
+    padding: 5px 10px;
+}
